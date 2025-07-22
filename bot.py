@@ -539,7 +539,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     
 async def main():
-    app = ApplicationBuilder().token("8172575856:AAHWiXaSXjMlylaa-9xqOSV-COWbqgpRsAA").build()
+    app = ApplicationBuilder().token("Здесь вставить ваш токен").build()
 
     conv_handler = ConversationHandler(
         entry_points=[MessageHandler(filters.Regex("^📥 Давай знакомиться$"), choose_company)],
